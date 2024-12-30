@@ -1,0 +1,74 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+
+.arg-input,
+.tr-input {
+  font-size: 20px;
+  color: red;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.arg {
+  margin-bottom: 40px;
+}
+
+.arg-output,
+.tr-output {
+  display: flex;
+  font-size: 20px;
+  margin: 20px 20px 0 0;
+}
+
+.arg-output_res {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
+
+.tr-output_res2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: green;
+}
+
+.arg-input::-webkit-outer-spin-button,
+.arg-input::-webkit-inner-spin-button,
+.tr-input::-webkit-outer-spin-button,
+.tr-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
+.list {
+  display: none;
+  font-size: 18px;
+}
+
+.list.active {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.show {
+  font-size: 20px;
+  background: greenyellow;
+  border: none;
+  margin: 20px 0;
+  color: white;
+  padding: 10px;
+}
